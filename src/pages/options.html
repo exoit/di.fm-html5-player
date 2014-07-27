@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>
+        HTML5 DI.FM Stream Player Options
+    </title>
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" type="text/css" href="styles/options.css">
+</head>
+<body>
+    <header>
+            <h3>DI.FM Stream Player Options</h3>
+            <div id="back" class="header_button">
+                <b>Back</b>
+            </div>
+    </header>
+    <p>
+        <span class="input_span">Listen Key:</span>
+        <input
+                class="key_input"
+                id="listen_key"
+                type="text"
+                name="listen-key"
+                placeholder="Premium Listen Key">
+        <br>
+        <span class="desc_span">Can be found in your player settings on the DI.FM home page</span><br>
+        <input type="button" class="button" value="Save" id="save">
+        <span id="save_info" class="save_info_span"></span>
+    </p>
+<script src="scripts/options.js"></script>
+</body>
+</html>

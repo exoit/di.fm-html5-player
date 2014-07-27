@@ -1,0 +1,44 @@
+body {
+    background-color: white;
+    margin: 0 auto;
+    min-width: 400px;
+}
+
+header {
+    margin-top: -20px;
+    background: #000080;
+    height: 35px;
+    position: relative;
+}
+
+header > h3 {
+    color: #FFFFFF;
+    padding: 5px;
+    font-family: "Roboto Slab", Georgia, serif;
+}
+
+.header_button > b {
+    font-family: "Roboto Slab", Georgia, serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    display:inline-block;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 8px;
+}
+
+header > .header_button {
+    width: 80px;
+    height: 35px;
+    border-left: 1px solid #FFFFFF;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    text-align: center;
+}
+
+header > .header_button:hover {
+    background-color: #4169E1;
+    cursor: pointer;
+}

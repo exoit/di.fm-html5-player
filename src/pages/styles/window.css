@@ -1,0 +1,34 @@
+.button {
+    float: right;
+    width: 100px;
+    background: #FFF;
+    border: 1px solid #CCC;
+    padding: 10px 25px 10px 25px;
+    color: #333;
+    border-radius: 4px;
+}
+
+.button:hover:enabled {
+    color: #333;
+    background-color: #EBEBEB;
+    border-color: #ADADAD;
+}
+
+div#player_content {
+    display: table;
+    margin: 0 auto;
+}
+
+.playing {
+    text-align: center;
+}
+
+select {
+    width: 250px;
+}
+
+table {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}

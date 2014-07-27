@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>
+        HTML5 DI.FM Stream Player
+    </title>
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" type="text/css" href="styles/window.css">
+ </head>
+<body>
+    <header>
+            <h3>DI.FM Stream Player</h3>
+            <div id="options" class="header_button">
+                <b>Options</b>
+            </div>
+    </header>
+    <table>
+        <tr>
+            <td>
+                <select id="channels" disabled="disabled">
+                    <option>No channels found</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <select id="streams" disabled="disabled">
+                    <option>No streams found</option>
+                </select>
+        </tr>
+        <tr>
+            <td>
+                 <input type="button" class="button" value="Load" id="load" disabled="disabled">
+            </td>
+        </tr>
+    </table>
+    <div id="player_content">
+    </div>
+    </div>
+    <script src="scripts/window.js"></script>
+</body>
+</html>

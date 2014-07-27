@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "HTML5 DI.FM Stream Player",
+    "version": "0.0.1",
+    "description": "Plays Digital Imported Web Radio Stream with a HTML5 player",
+    "icons": {
+        "128": "icons/headphones_128.png"
+     },
+    "app": {
+        "launch": {
+            "local_path": "pages/window.html",
+            "container": "panel",
+            "height": 300,
+            "width": 450
+        }
+    },
+
+    "permissions": [
+            "storage",
+            "http://listen.di.fm/*"
+        ]
+}
